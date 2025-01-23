@@ -9,4 +9,5 @@ This repository will hold my assignments and labs for this course.
 
 # About Me
 ## My Interests
+  I spend a lot of my weekends outside fishing as it is one of my favorite passtimes. I also enjoy collecting Pokemon cards and sealed product to hold onto or sell. 
 ## Websites I Recommend
