@@ -8,5 +8,5 @@ This is my Wake Tech School account I am using for my Web, Pgm, and Db Foundatio
 This repository will hold my assignments and labs for this course.
 
 # About Me
-##* My Interests
-##* Websites I Recommend
+## My Interests
+## Websites I Recommend
