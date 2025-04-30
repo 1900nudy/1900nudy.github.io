@@ -28,3 +28,27 @@ xhr.onreadystatechange = function(){
     xhr.open("get", apiroute, true);
     xhr.send();
 }
+function populateGradebook(data) {
+
+    console.log("Populating gradebook with data", data);
+    let tableElm = document.getElementbyID("gradebook");
+        data.forEach(function(assignment){
+            let row = document.createElement("tr");
+            let columns =[];
+            columns.name =document.createElement('td');
+            columns.name.appendChild(
+
+                document.createTextNode(assignment.last_name + ", " + assignment.first_name)
+            );
+            columns.grade = document.createElement('td');
+            columns.grade.appendChild(
+
+                document.createTextNode(assignment.total_grade)
+                );
+
+                     row.appendChild(columns.name);
+                     row.appendChild(columns.grade);
+
+                     tableElm.appendChild(row);
+        }); 
+                        
